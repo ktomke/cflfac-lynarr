@@ -10,6 +10,6 @@ The library used for suffix array construction can be found here:
 
 For the testing the algorithms are all compiled into there own executable and then timed while running a single task. The folder "example_scripts" has scripts in them to show how I did it.
 If one wants to test these implenentations, the following is needed to make it run:
-- the command "cmake .." should be run from a "cflfac-lynarr/build" folder
-- the data to test them one should be in a "cflfac-lynarr/data" folder
+- the command "cmake .." and "make" should be run from a "cflfac-lynarr/build" folder
+- the data to test the algorithms is expected to be in a "cflfac-lynarr/data" folder
 - the algorithms expect a parameter when called specifying the name of the data file. If the file is "cflfac-lynarr/data/testdata" for example, just pass the argument "testdata"
