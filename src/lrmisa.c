@@ -31,7 +31,7 @@ int32_t readText(uint8_t ** text, char file_url[]) {
     }
 
     fseek(file, 0, SEEK_END);
-    int32_t n = ftell(file) - 1;
+    int32_t n = ftell(file);
     rewind(file);
 
     *text = (uint8_t *)malloc(n+1);
