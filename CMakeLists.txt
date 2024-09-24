@@ -4,6 +4,7 @@ cmake_minimum_required(VERSION 3.28)
 project(cflfac-lynarr)
 
 set(CMAKE_C_STANDARD 11)
+set(CMAKE_BUILD_TYPE "Release")
 
 set(CPM_DOWNLOAD_VERSION 0.27.2) 
 set(CPM_DOWNLOAD_LOCATION "${CMAKE_BINARY_DIR}/cmake/CPM_${CPM_DOWNLOAD_VERSION}.cmake")
